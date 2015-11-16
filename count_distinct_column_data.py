@@ -83,7 +83,7 @@ def csv_reader(filename, empty_cols, column_title_max_length):
 
                 break
 
-        print ("Field:unique values/total values/rows\n-------------------")
+        print ("Field:unique values/total values/rows")
         for i in all_cols.uv:
             for k,v in i.items():
                 print ("{0}:{1}/{2}".format(k[:column_title_max_length],v,max_rows))
