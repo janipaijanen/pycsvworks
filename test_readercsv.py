@@ -8,10 +8,6 @@ __version__ = "0.0.1"
 __email__ = "jani dot paijanen+testreader at gmail dot com "
 __status__ = "Testing"
 
-"""
-Copyright (C) 2015 Sparta Consulting Oy. All rights reserved.
-Authors: jp
-"""
 
 from readercsv import *
 
